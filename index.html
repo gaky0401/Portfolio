@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <title>Kyle Galer's site</title>
+    <title>Kyle Galer's Portfolio</title>
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -15,8 +15,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
+            <!-- added active tag so the active page would highlight -->
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio/portfolio.html">Portfolio</a>
@@ -29,6 +30,22 @@
       </nav>
 </header>
 <body>
-    
+<section class="container">
+    <section class="row">
+        <section class="col-lg-6">
+            <p id="aboutMe">About Me</p>
+        </section>
+    </section>
+    <section class="row">
+        <section class="col-med-3">
+            <div class="card" style="width: 18rem;">
+                <img src="Portfolio.jpg" class="card-img-top" alt="a smiling picture of me">
+                <div class="card-body">
+                  <p class="card-text">Me in my natural habitat.</p>
+                </div>
+              </div>
+        </section>
+    </section>
+</section>  
 </body>
 </html>
