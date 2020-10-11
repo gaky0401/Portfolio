@@ -9,5 +9,7 @@ After using bootstrap to modify columns and the layout of each page, I added css
 
 ## My 3 web pages
 
-![Home page](/assets/images/IndexPic.png)
+![Home page](/assets/images/index.png)
+![Portfolio Page](/assets/images/portfolio.png)
+![Contact Page](/assets/images/portfolio.png)
 
