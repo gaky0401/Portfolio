@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    text-align: center;
+    color: black;
+    bottom: 0px;   
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        width: 360px;
+    }
+    footer {
+        width: 360px;
+    }
+}
+/* modified footer and added media query */

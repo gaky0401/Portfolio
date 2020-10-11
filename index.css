@@ -1,3 +1,19 @@
 #aboutMe {
     font-size: 32px;
 }
+footer {
+    position: fixed;
+    text-align: center;
+    color: black;
+    bottom: 0px;   
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        width: 360px;
+    }
+    footer {
+        width: 360px;
+    }
+}
+/* changed font, modified footer, and made media query */
