@@ -9,6 +9,11 @@ body {
     background-image: linear-gradient(yellow, orange);
 }
 
+#notes {
+    width: 300px;
+    height: 300px;
+}
+
 #reformat {
     width: 300px;
     height: 300px;
